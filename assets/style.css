@@ -1,0 +1,47 @@
+#formulario-calculadora {
+    background-color: #dce6ef;
+    padding: 30px 50px;
+    border-radius: 25px;  
+}
+
+#formulario-calculadora h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: italic;
+}
+
+#formulario-calculadora hr {
+    border: none;
+    height: 1px;
+    background-color: #3E87BB;
+}
+
+#formulario-calculadora p {
+    margin: 0;
+}
+
+#formulario-calculadora .box-ahorro {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/*** ANTIGUO ***/
+
+#form-calculadora {
+    position: absolute;
+    width: 100%;
+    top: -300px;
+    z-index: 999;
+}
+
+@media (max-width: 650px) {
+    #head-calculadora {
+        min-height: 850px !important;
+    }
+
+    #form-calculadora {
+        top: -400px;
+    }
+}
