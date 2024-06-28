@@ -1,3 +1,5 @@
+/*** BLOQUE ***/
+
 #formulario-calculadora {
     background-color: #dce6ef;
     padding: 30px 50px;
@@ -17,6 +19,45 @@
     background-color: #3E87BB;
 }
 
+/*** FORMULARIO ***/
+
+#calculadora-esparta #nombre-correo, #datos-empresa {
+    display: flex;
+    width: 99%;
+}
+
+#calculadora-esparta #nombre-correo label, #datos-empresa label {
+    width: 100%;
+}
+
+#calculadora-esparta #nombre-correo label input, #datos-empresa label input {
+    width: 99%;
+}
+
+#calculadora-esparta #final {
+    display: flex;
+    justify-content: space-between;
+}
+
+#calculadora-esparta #final p {
+    color: #a0a0a0;
+    font-size: 12px;
+}
+
+#calculadora-esparta .requerido {
+    color: rgb(255, 0, 0);
+}
+
+#calculadora-esparta input[type=submit] {
+    background: #8E27CC;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 900 !important;
+}
+
+
+/*** RESULTADO ***/
+
 #formulario-calculadora p {
     margin: 0;
 }
@@ -25,23 +66,4 @@
     padding: 10px 20px;
     background-color: #fff;
     border-radius: 8px;
-}
-
-/*** ANTIGUO ***/
-
-#form-calculadora {
-    position: absolute;
-    width: 100%;
-    top: -300px;
-    z-index: 999;
-}
-
-@media (max-width: 650px) {
-    #head-calculadora {
-        min-height: 850px !important;
-    }
-
-    #form-calculadora {
-        top: -400px;
-    }
 }
