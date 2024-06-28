@@ -2,7 +2,7 @@
 /*
  * Plugin Name:       Calculadora consultiatravel.es | espartadigital.com ✴️
  * Plugin URI:        https://github.com/espartadigital
- * Description:       Calculadora viajes para consultiatravel.es // Para usar el formulario en cualquier pagina insertar en HTML: [espartaform]
+ * Description:       Calculadora viajes para consultiatravel.es
  * Version:           1.0
  * Requires at least: 6.3
  * Requires PHP:      7.4
